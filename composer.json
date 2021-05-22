@@ -20,6 +20,7 @@
     "php": "^7.3",
     "acquia/acquia_cms": "^1.0",
     "acquia/blt": "^13.0",
+    "acquia/blt-behat": "^1.1",
     "acquia/blt-phpcs": "^1.0",
     "acquia/blt-travis": "^1.0",
     "acquia/drupal-environment-detector": "^1",

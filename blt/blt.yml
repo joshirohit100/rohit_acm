@@ -1,8 +1,14 @@
 project:
   machine_name: rohit_acm
+  prefix: Rohit-ACM
   human_name: My D9 ACM Site
 
 git:
   default_branch: develop
   remotes:
     - 'eerjoshi@svn-22901.prod.hosting.acquia.com:eerjoshi.git'
+
+disable-targets:
+  tests:
+    behat:
+      run: true

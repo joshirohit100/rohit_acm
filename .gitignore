@@ -140,5 +140,4 @@ drush/sites/.checksums
 .rules
 
 # This is a template, don't commmit the lockfile.
-composer.lock
 .phpcs-cache

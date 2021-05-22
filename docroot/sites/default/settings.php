@@ -809,7 +809,10 @@ if (AcquiaDrupalEnvironmentDetector::isAhEnv()) {
       ],
     ];
     $databases = array_merge_recursive($databases, $default_settings);
-    acquia_hosting_db_choose_active();
+    //acquia_hosting_db_choose_active();
+    if (function_exists('acquia_hosting_db_choose_active')) {
+      acquia_hosting_db_choose_active();
+    }
   }
 }
 

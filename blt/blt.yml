@@ -1,2 +1,8 @@
 project:
-  machine_name: project
+  machine_name: rohit_acm
+  human_name: My D9 ACM Site
+
+git:
+  default_branch: develop
+  remotes:
+    - 'eerjoshi@svn-22901.prod.hosting.acquia.com:eerjoshi.git'

@@ -1,6 +1,7 @@
 project:
   machine_name: rohit_acm
-  human_name: My D9-ACM Site
+  prefix: Rohit-ACM
+  human_name: My D9 ACM Site
 
 git:
   default_branch: develop

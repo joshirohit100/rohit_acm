@@ -7,3 +7,8 @@ git:
   default_branch: develop
   remotes:
     - 'eerjoshi@svn-22901.prod.hosting.acquia.com:eerjoshi.git'
+
+disable-targets:
+  tests:
+    behat:
+      run: true

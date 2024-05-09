@@ -43,7 +43,7 @@ install:
   - source ${BLT_TRAVIS_DIR}/scripts/setup_project
 
 script:
-  # Uncomment these lines to test database updates using live conten.
+  # Uncomment these lines to test database updates using live content.
   # - blt drupal:sync:default:site
   - source ${BLT_TRAVIS_DIR}/scripts/run_tests
   # - source ${BLT_TRAVIS_DIR}/scripts/simulate_deploy
